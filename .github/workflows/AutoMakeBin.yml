@@ -21,9 +21,7 @@ jobs:
     strategy:
       matrix:
         include:
-          - build_variant: "mt7621"
-            targets: "K2P JCG-Q20"
-          - build_variant: "mt7621-usb-1"
+          - build_variant: "mt7621 with usb"
             targets: "XY-C1"
     steps:
       - uses: actions/checkout@v2
